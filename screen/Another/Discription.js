@@ -6,12 +6,11 @@ import { useRoute } from '@react-navigation/native';
 export default function Discription({navigation}) {
   const route = useRoute();
   return (
-    
-
+   
     <ImageBackground resizeMode="cover" style={TapBaeStyle.main}>
       <View style={styles.Scrolen}>
 
-        <View style={[styles.cardMain, styles.commun]}>
+        <View style={[styles.cardMain, styles.commun]} key={route.params.id}>
           <Text style={[styles.name, styles.commun]}>{ route.params.name }</Text>
           <Image style={[styles.image, styles.commun]} source={route.params.img} />
 

@@ -14,7 +14,7 @@ export default function Discription({navigation}) {
         <View>
           <TextInput
               style={styles.TextInput}
-              placeholder="Search Book"
+              placeholder="Search"
               onChangeText={(emailVal) => setSearch(emailVal)}
           /> 
           {Book.map(Book=>{
@@ -74,7 +74,9 @@ const TapBaeStyle = StyleSheet.create({
     justifyContent: 'space-around',
     margin: 5,
     borderRadius: 10,
-    elevation: 2
+    elevation: 2,
+    borderTopColor: '#eee',
+    borderTopWidth: 1
   },
   tapCpmpornent:{
     padding: 15,
@@ -128,6 +130,18 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     alignSelf: 'center',
     fontSize: 20
+  },
+  TextInput:{
+    padding: 10,
+    textAlign: 'center',
+    borderRadius: 7,
+    marginHorizontal: 15,
+    marginVertical: 10,
+    borderWidth: 3,
+    borderColor: '#eee',
+    backgroundColor: '#fff',
+    fontWeight: 'bold'
+    
   }
  
 })
