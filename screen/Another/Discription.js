@@ -7,25 +7,42 @@ export default function Discription({navigation}) {
   const route = useRoute();
   return (
    
-    <ImageBackground resizeMode="cover" style={TapBaeStyle.main}>
+    <View style={TapBaeStyle.main}>
       <View style={styles.Scrolen}>
 
-        <View style={[styles.cardMain, styles.commun]} key={route.params.id}>
+        <ScrollView style={[styles.cardMain, styles.commun]} key={route.params.id}>
           <Text style={[styles.name, styles.commun]}>{ route.params.name }</Text>
           <Image style={[styles.image, styles.commun]} source={route.params.img} />
 
           <Text style={{
             fontSize: 17,
-            paddingTop: 15
+            paddingTop: 15,
+            textAlign: 'center'
           }}>Auther</Text>
           <Text style={[styles.auther, styles.commun]}>{ route.params.auther}</Text>
 
           <Text style={{
             fontSize: 17,
-            paddingTop: 15
+            paddingTop: 15,
+            textAlign: 'center'
           }}>Category</Text>
           <Text style={[styles.category, styles.commun]}>{ route.params.category}</Text>
-        </View>
+
+          <Text style={{
+            fontSize: 17,
+            paddingTop: 15,
+            textAlign: 'center'}}
+            >Discription</Text>
+          <Text
+            style={{
+              textAlign: 'justify',
+              fontSize: 15,
+              padding: 10,
+              lineHeight: 20,
+              color: 'gray'
+            }}
+          >{route.params.discription}</Text>
+        </ScrollView>
 
       </View>
 
@@ -41,9 +58,10 @@ export default function Discription({navigation}) {
         <TouchableOpacity style={TapBaeStyle.tapCpmpornent} onPress={() => navigation.navigate('Login')}>
           <Image style={TapBaeStyle.tapIcon} source={require('../tap-Icon/user.png')} />
         </TouchableOpacity>
+
       </View>
 
-    </ImageBackground>
+    </View>
   )
 }
 
@@ -58,7 +76,9 @@ const TapBaeStyle = StyleSheet.create({
     justifyContent: 'space-around',
     margin: 5,
     borderRadius: 10,
-    elevation: 2
+    elevation: 2,
+    borderTopColor: '#eee',
+    borderTopWidth: 1
   },
   tapCpmpornent:{
     padding: 15,
@@ -74,43 +94,53 @@ const styles = StyleSheet.create({
   Scrolen: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center',
+    // justifyContent: 'center',
   },
   cardMain:{
-    alignItems: 'center',
+    top: 20,
+    // alignItems: 'center',
+    width: '90%',
     padding: 10,
     borderColor: '#eee',
     borderWidth: 1,
     borderRadius: 10,
+    marginBottom: 30,
   },
   commun:{
 
   },
   name:{
-    fontSize: 40,
+    fontSize: 35,
     margin: 10,
     color: '#FF6363',
     textAlign: 'center'
   },
   image:{
-    width: 180,
-    height: 250,
+    width: 150,
+    height: 220,
     resizeMode: 'cover',
     alignSelf: 'center',
     borderRadius: 10,
     // backgroundColor: '#000',
+    
   },
   auther:{
-    fontSize: 25,
+    fontSize: 20,
     paddingBottom: 12,
     paddingHorizontal: 30,
     color: '#0AA1DD',
-    borderBottomColor: 'red',
-    borderBottomWidth: 1
+    borderColor: '#eee',
+    borderBottomWidth: 1,
+    borderTopmWidth: 1,
+    textAlign: 'center'
   },
   category:{
     fontSize: 20,
     margin: 5,
-    color: '#0AA1DD'
+    color: '#0AA1DD',
+    textAlign: 'center',
+    borderBottomColor: '#eee',
+    borderBottomWidth: 1,
+    paddingBottom: 12,
   }
 })

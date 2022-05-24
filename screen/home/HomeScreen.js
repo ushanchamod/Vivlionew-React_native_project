@@ -33,7 +33,8 @@ export default function HomeScreen({navigation}) {
                                 name: Book.name,
                                 auther: Book.auther,
                                 category: Book.category,
-                                img: Book.img
+                                img: Book.img,
+                                discription : Book.discription
                               }
                             )
                           }>
@@ -82,7 +83,9 @@ const TapBaeStyle = StyleSheet.create({
     justifyContent: 'space-around',
     margin: 5,
     borderRadius: 10,
-    elevation: 2
+    elevation: 2,
+    borderTopColor: '#eee',
+    borderTopWidth: 1
   },
   tapCpmpornent:{
     padding: 15,

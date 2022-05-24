@@ -20,8 +20,8 @@ export default function Discription({navigation}) {
           {Book.map(Book=>{
             if(Book.name.toLowerCase().match(item.toLowerCase())){
               return(
-                <View style={styles.mainBackground}>
-                  <TouchableOpacity style = {styles.card} key={Book.id} 
+                <View style={styles.mainBackground} key={Book.id}>
+                  <TouchableOpacity style = {styles.card} 
                    onPress={()=> 
                      navigation.navigate(
                        'Discription',{
@@ -29,7 +29,8 @@ export default function Discription({navigation}) {
                          name: Book.name,
                          auther: Book.auther,
                          category: Book.category,
-                         img: Book.img
+                         img: Book.img,
+                         discription : Book.discription
                        }
                      )
                    }>
