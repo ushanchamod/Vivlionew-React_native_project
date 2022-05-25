@@ -22,11 +22,3 @@ cd ios
 pod install
 cd ..
 ```
-
-## Bottom Tabs Navigator Intall
-
-### To use this navigator, ensure that you have @react-navigation/native and its dependencies (follow this guide), then install @react-navigation/bottom-tabs:
-
-```
-npm install @react-navigation/bottom-tabs
-```
