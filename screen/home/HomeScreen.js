@@ -7,12 +7,10 @@ import Catogory from '../books/Catogory';
 export default function HomeScreen({navigation}) {
 
   return (
-    // <ImageBackground source={require('./Background.jpg')} resizeMode="cover" style={TapBaeStyle.main}>
     <ImageBackground resizeMode="cover" style={TapBaeStyle.main}>
       <ScrollView style={TapBaeStyle.Scrolen}>
 
         <Image source={require('../books/Banner.jpg')} style={styles.banner} />
-
         {Catogory.map(Catogory=>{
           return(
             <View style={styles.cardBackground} key={Catogory.id}>

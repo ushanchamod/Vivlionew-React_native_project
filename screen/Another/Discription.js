@@ -1,6 +1,5 @@
 import { StyleSheet, Text, View, TouchableOpacity, ScrollView, Image, ImageBackground } from 'react-native'
 import React from 'react'
-import { useState } from 'react/cjs/react.development';
 import { useRoute } from '@react-navigation/native';
 
 export default function Discription({navigation}) {
