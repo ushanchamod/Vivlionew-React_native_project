@@ -14,7 +14,7 @@ export default Book = [
     auther: " Alexandre Dumas",
     category: "Action and Adventure",
     img: require("./Image/Sample.jpg"),
-    discription: ''
+    discription: "  The Count of Monte Cristo is an adventure novel written by French author Alexandre Dumas completed in 1844. It is one of the author's more popular works, along with The Three Musk"
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ export default Book = [
     auther: "Michael Crichton",
     category: "Action and Adventure",
     img: require("./Image/Congo.jpg"),
-    discription: ''
+    discription: "  Congo is a 1980 science fiction novel by Michael Crichton, the fifth under his own name and the fifteenth overall. The novel centers on an expedition searching for diamonds and investigating the mysterious deaths of a previous expedition in the dense tropical rainforest of the Congo"
   },
 
   {
@@ -31,7 +31,7 @@ export default Book = [
     auther: "Yann Martel",
     category: "Action and Adventure",
     img: require("./Image/LifeofPi.jpg"),
-    discription: ''
+    discription: "Yann Martel, CC is a Canadian author best known for the Man Booker Prize–winning novel Life of Pi, an international bestseller published in more than 50 territories."
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ export default Book = [
     auther: "Little Women",
     category: "Classics",
     img: require("./Image/LittleWomen.jpg"),
-    discription: ''
+    discription: "Little Women is a coming-of-age novel written by American novelist Louisa May Alcott. Originally published in two volumes in 1868 and 1869, Alcott wrote the book over several months at the request of her publisher."
   },
 
   {
@@ -48,7 +48,7 @@ export default Book = [
     auther: "Charlotte Brontë",
     category: "Classics",
     img: require("./Image/CharlotteBrontë.jpg"),
-    discription: ''
+    discription: "Jane Eyre is a novel by English writer Charlotte Brontë, published under the pen name Currer Bell, on 16 October 1847, by Smith, Elder & Co. of London. The first American edition was published the following year by Harper & Brothers of New York. ",
   },
   {
     id: 7,
@@ -56,116 +56,118 @@ export default Book = [
     auther: " Mary Shelley",
     category: "Classics",
     img: require("./Image/MaryShelley.jpg"),
-    discription: ''
+    discription: "Frankenstein; or, The Modern Prometheus is an 1818 novel written by English author Mary Shelley. Frankenstein tells the story of Victor Frankenstein, a young scientist who creates a sapient creature in an unorthodox scientific experiment."
   },
 
   {
     id: 8,
-    name: "",
-    auther: "",
+    name: "Catch-22",
+    auther: "Joseph Heller",
     category: "Classics",
-    img: "",
-    discription: ''
+    img: require("./Image/Catch.jpg"),
+    discription: 'Catch-22 is a satirical war novel by American author Joseph Heller. He began writing it in 1953; the novel was first published in 1961.'
   },
   {
     id: 9,
-    name: "",
-    auther: "",
+    name: "Odyssey",
+    auther: "Homer",
     category: "Classics",
-    img: "",
-    discription: ''
+    img: require("./Image/Odyssey.jpg"),
+    discription: "The Odyssey is one of two major ancient Greek epic poems attributed to Homer. It is one of the oldest extant works of literature still widely read by modern audiences. As with the Iliad, the poem is divided into 24 books. It follows the Greek hero Odysseus, king of Ithaca, and his journey home after the Trojan War."
   },
 
   {
     id: 10,
-    name: "",
-    auther: "",
+    name: "Maus",
+    auther: " Art Spiegelman",
     category: "Comic Book or Graphic Novel",
-    img: "",
-    discription: ''
+    img: require("./Image/Maus.jpg"),
+    discription: 'Maus is a nonfiction book presented in the graphic novel style, written by American cartoonist Art Spiegelman. Serialized from 1980 to 1991, it depicts Spiegelman interviewing his father about his experiences as a Polish Jew and Holocaust survivor.'
   },
   {
     id: 11,
-    name: "",
-    auther: "",
+    name: "Nimona",
+    auther: "ND Stevenson",
     category: "Comic Book or Graphic Novel",
-    img: "",
-    discription: ''
+    img: require("./Image/images.jpg"),
+    discription: 'Nimona is a fantasy graphic novel by ND Stevenson, an American cartoonist. The story follows Nimona, a shapeshifter who joins the villain Ballister Blackheart in his plans to destroy the over-controlling Institute. Blackheart tries to operate under his code of ethics, while Nimona has no problem with killing.'
   },
 
   {
     id: 12,
-    name: "",
-    auther: "",
+    name: "Saga",
+    auther: "Brian K. Vaughan",
     category: "Comic Book or Graphic Novel",
-    img: "",
+    img: require("./Image/Saga.jpg"),
+    discription: 'Winner of the 2013 Hugo award for Best Graphic Story! When two soldiers from opposite sides of a never-ending galactic war fall in love, they risk everything to bring a fragile new life into a dangerous old universe'
   },
   {
     id: 13,
-    name: "",
-    auther: "",
+    name: "Megahex",
+    auther: "Simon",
     category: "Comic Book or Graphic Novel",
-    img: "",
-    discription: ''
+    img: require("./Image/Megahex.jpg"),
+    discription: 'Megg is a depressed, drug-addicted witch. Mogg is her black cat. Their friend, Owl, is an anthropomorphized owl. They hang out a lot with Werewolf Jones.'
   },
 
   {
     id: 14,
-    name: "",
-    auther: "",
+    name: "The Big Sleep",
+    auther: "Raymond Chandler",
     category: "Detective and Mystery",
-    img: "",
-    discription: ''
+    img: require("./Image/TheBigSleep.jpg"),
+    discription: 'The Big Sleep is a hardboiled crime novel by American-British writer Raymond Chandler, the first to feature the detective Philip Marlowe. It has been adapted for film twice, in 1946 and again in 1978. The story is set in Los Angeles.'
   },
   {
     id: 15,
-    name: "",
-    auther: "",
+    name: "Whose Body?",
+    auther: " Dorothy L. Sayers",
     category: "Detective and Mystery",
-    img: "",
-    discription: ''
+    img: require("./Image/Whose.jpg"),
+    discription: 'Whose Body? is a 1923 mystery novel by Dorothy L. Sayers, in which she introduced the character of Lord Peter Wimsey'
   },
 
   {
     id: 16,
-    name: "",
-    auther: "",
+    name: "The Alienist",
+    auther: "Caleb Carr",
     category: "Detective and Mystery",
-    img: "",
-    discription: ''
+    img: require("./Image/TheAliebist.jpg"),
+    discription: 'The Alienist is a crime novel by Caleb Carr first published in 1994 and is the first book in the Kreizler series. It takes place in New York City in 1896, and includes appearances by many famous figures of New York society in that era, including Theodore Roosevelt and J. P. Morgan. '
   },
   {
     id: 17,
-    name: "",
-    auther: "",
+    name: "Gone Gir",
+    auther: " Gillian Flynn",
     category: "Detective and Mystery",
-    img: "",
-    discription: ''
+    img: require("./Image/GoneGirl.jpg"),
+    discription: 'Gone Girl is a 2012 crime thriller novel by American writer Gillian Flynn. It was published by Crown Publishing Group in June 2012. The novel was popular and made the New York Times Best Seller list. The sense of suspense in the novel comes from whether Nick Dunne is responsible for the disappearance of his wife Amy.'
   },
 
   {
     id: 18,
-    name: "",
-    auther: "",
+    name: "Six of Crows",
+    auther: "Leigh Bardugo",
     category: "Fantasy",
-    img: "",
+    img: require("./Image/22294935.jpg"),
+    discription: "Six of Crows is a fantasy novel written by the Israeli-American author Leigh Bardugo and published by Henry Holt and Co. in 2015. The story follows a thieving crew and is primarily set in the city of Ketterdam, which is loosely inspired by Dutch Republic–era Amsterdam."
   },
   {
     id: 19,
-    name: "",
-    auther: "",
+    name: "Jade City",
+    auther: " Fonda Lee",
     category: "Fantasy",
-    img: "",
-    discription: ''
+    img: require("./Image/JadeCity.jpg"),
+    discription: 'Jade City is a 2017 fantasy novel by Fonda Lee. It won the World Fantasy Award in 2018 and is the first in the Green Bone Saga. It was followed by Jade War in 2019 and Jade Legacy in 2021. '
   },
 
   {
     id: 20,
-    name: "",
-    auther: "",
+    name: "Dune",
+    auther: "Frank Herbert",
     category: "Fantasy",
-    img: "",
-    discription: ''
+    img: require("./Image/Dune.jpg"),
+    discription: "Dune is a 1965 epic science fiction novel by American author Frank Herbert, originally published as two separate serials in Analog magazine. It tied with Roger Zelazny's This Immortal for the Hugo Award in 1966 and it won the inaugural Nebula Award for Best Novel. It is the first installment of the Dune saga."
   },
   // {
   //   id: 20,

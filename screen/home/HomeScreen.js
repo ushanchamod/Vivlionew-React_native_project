@@ -15,7 +15,7 @@ export default function HomeScreen({navigation}) {
 
         {Catogory.map(Catogory=>{
           return(
-            <View style={styles.cardBackground} key={Book.id}>
+            <View style={styles.cardBackground} key={Catogory.id}>
             <Text style={styles.categoryTopics}>{Catogory.category}</Text>
 
               <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
@@ -47,7 +47,6 @@ export default function HomeScreen({navigation}) {
                   })}
                 </View>
               </ScrollView>
-
             </View>
           )
         })}

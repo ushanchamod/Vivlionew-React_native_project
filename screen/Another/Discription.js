@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
     color: '#0AA1DD',
     borderColor: '#eee',
     borderBottomWidth: 1,
-    borderTopmWidth: 1,
+    borderTopWidth: 1,
     textAlign: 'center'
   },
   category:{
