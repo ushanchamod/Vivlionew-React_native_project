@@ -1,8 +1,6 @@
 import { StyleSheet, Text, View, ImageBackground, TouchableOpacity, TextInput } from 'react-native'
 import React from 'react'
 
-
-
 export default function SignUpSecond({navigation}) {
   return (
 
